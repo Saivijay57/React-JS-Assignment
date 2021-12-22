@@ -14,7 +14,16 @@
     <div id="root"></div>
     <script type="text/babel">
 //React Code here
- ReactDOM.render(<div></div>,document.getElementById('root'));
+var container_1a = React.createElement("div",{className:"container-1a"},null,null)
+var container_1b = React.createElement("div",{className:"container-1b"},null,null)
+var container_1 = React.createElement("div",{className:"container-1"},container_1a,container_1b,null)
+var container_2 = React.createElement("div",{className:"container-2"},null,null)
+var container_3a = React.createElement("div",{className:"container-3a"},null,null)
+var container_3b = React.createElement("div",{className:"container-3b"},null,null)
+var container_3c = React.createElement("div",{className:"container-3c"},null,null)
+var container_3 = React.createElement("div",{className:"container-3"},container_3a,container_3b,container_3c,null)
+var webapp = React.createElement("div",{className:"main-container"},container_1,container_2,container_3,null)
+ ReactDOM.render(webapp,document.getElementById('root'));
 
 </script>
 <!--
